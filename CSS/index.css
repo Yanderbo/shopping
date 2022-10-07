@@ -202,6 +202,13 @@
     height: 361px;
 
 }
+.box_bd img {
+    transition: all .3s;
+}
+
+.box_bd img:hover {
+    transform: translateX(5px);
+}
 
 .tab_list_item>div {
     float: left;

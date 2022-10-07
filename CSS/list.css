@@ -54,3 +54,9 @@
 .sk_bd ul li:hover {
     border: 1px solid #c81523;
 }
+.sk_bd img{
+    transition: all .3s;
+}
+.sk_bd img:hover{
+    transform: scale(1.1);
+}
