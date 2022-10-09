@@ -193,9 +193,33 @@
 .tab_list ul li a {
     margin: 0 15px;
 }
-
-.floor .w {
+.floor_nav{
+    position: fixed;
+    top: 31px;
+    left: 50%;
+    background-color: pink;
+    width: 100px;
+    height: 62px;
     margin-top: 30px;
+    margin-left: -600px;
+    transform: translateX(-100%);
+    /* z-index: 3; */
+}
+.floor_nav li{
+    text-align: center;
+    height: 31px;
+    line-height: 31px;
+}
+.floor_nav li a{
+    font-size: 14px;
+    color: #c81623;
+    font-weight:600;
+}
+.floor_nav li:first-child{
+    border-bottom: 1px solid black;
+}
+.floor .w{
+    padding-top: 30px;
 }
 
 .box_bd {
